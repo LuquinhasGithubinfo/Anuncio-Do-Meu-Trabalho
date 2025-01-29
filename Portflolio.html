@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedor Web - Meus Serviços</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: url('Imagens/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        section {
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            margin: 20px;
+            display: inline-block;
+            width: 80%;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #0aa704, #003d80);
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 10px;
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out, background-color 0.3s;
+            box-shadow: 0 0 15px rgba(6, 122, 175, 0.8);
+        }
+        .cta-button:hover {
+            background: linear-gradient(45deg, #09632e, #001f40);
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 86, 179, 1);
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desenvolvedor Web</h1>
+        <p>Criação de sites profissionais e responsivos</p>
+    </header>
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Sou programador e desenvolvo websites modernos e eficientes para o seu negócio.</p>
+    </section>
+    <section>
+        <h2>Meus Serviços</h2>
+        <p>Criação de sites institucionais, landing pages e lojas virtuais. Valor negociável com o cliente.</p>
+        <a href="https://wa.me/5564993287107?text=Olá,%20quero%20saber%20mais%20sobre%20seus%20serviços!" class="cta-button">Entre em Contato</a>
+    </section>
+</body>
+</html>
